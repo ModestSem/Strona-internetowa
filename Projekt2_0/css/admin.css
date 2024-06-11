@@ -1,0 +1,140 @@
+/* Stylizacja całej strony */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Stylizacja przycisków */
+.button {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+/* Stylizacja przycisku Reject */
+.reject-button {
+    background-color: #f44336; /* Czerwony kolor tła */
+}
+
+.reject-button:hover {
+    background-color: #d32f2f; /* Ciemniejszy odcień czerwieni po najechaniu */
+}
+
+/* Stylizacja wrappera */
+.wrapper {
+    width: 100%;
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Stylizacja avatara */
+.avatar-container {
+    text-align: center;
+}
+
+#avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+#username {
+    font-size: 18px;
+    color: #333;
+    margin-top: 10px;
+}
+
+/* Stylizacja kontenera */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Wyśrodkowanie zawartości */
+}
+
+/* Stylizacja pól */
+.field {
+    width: calc(33.333% - 20px);
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-sizing: border-box;
+    flex-grow: 1;
+    transition: box-shadow 0.3s ease;
+}
+
+.field:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Stylizacja nagłówków pól */
+.field h2 {
+    margin: 0 0 10px 0;
+    font-size: 24px;
+    color: #333;
+}
+
+/* Stylizacja obrazów pól */
+.field_image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+/* Stylizacja tekstów pól */
+.field p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #666;
+}
+
+/* Stylizacja formularza */
+form {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input[type="hidden"] {
+    display: none;
+}
+
+form button[type="submit"] {
+    margin-top: 10px;
+}
