@@ -1,0 +1,241 @@
+/* index.css */
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.menu {
+    padding: 10px;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#profile-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#profile-container img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+#profile-container p {
+    margin: 0;
+    font-weight: bold;
+}
+
+#user-actions {
+    display: flex;
+    gap: 10px;
+}
+
+#user-actions p {
+    margin: 0;
+}
+
+#logout-form {
+    margin-top: 10px;
+}
+
+#filter-form {
+    margin-bottom: 20px;
+}
+
+#filter-form select {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+#filter-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#filter-form button:hover {
+    background-color: #0056b3;
+}
+
+.listing-container {
+    background-color: #ffffff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.listing-user-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.listing-user-info img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.listing-user-info p {
+    font-weight: bold;
+    margin: 0;
+}
+
+.listing-image {
+    max-width: 26%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.listing-container p {
+    margin: 5px 0;
+}
+
+.favourite-btn {
+    background-color: #28a745;
+    color: #fff;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.favourite-btn:hover {
+    background-color: #218838;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+
+
+#logout-form button {
+    padding: 10px 20px;
+    background-color: #dc3545; 
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#logout-form button:hover {
+    background-color: #c82333; 
+}
+
+
+#user-actions {
+    display: flex;
+    gap: 10px;
+}
+
+
+
+#user-actions p {
+    margin: 0;
+}
+
+#user-actions a {
+    display: inline-flex;
+    align-items: center;
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+#user-actions a:hover {
+    background-color: #0056b3;
+}
+
+#user-actions a i {
+    margin-right: 5px; 
+    font-size: 18px;
+}
+.login-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.login-btn i {
+    margin-left: 5px;
+}
+
+#user-info {
+    display: flex;
+    align-items: center;
+}
+
+#user-info img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+#user-actions p {
+    margin: 5px 0;
+}
+
+.login-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.login-btn i {
+    margin-right: 5px;
+}

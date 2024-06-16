@@ -1,0 +1,116 @@
+/* Reset and general styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    text-align: center;
+
+}
+
+/* styles.css */
+/* Reset and general styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.fields-list {
+    margin-top: 20px;
+}
+
+.field {
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #fafafa;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.field h2 {
+    margin-top: 0;
+    font-size: 20px;
+}
+
+.field p {
+    margin: 10px 0;
+}
+
+.field img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-container form {
+    display: inline-block;
+}
+
+.button-container button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.button-container button[name="delete_field_btn"] {
+    background-color: #dc3545;
+    color: white;
+}
+
+.button-container button[name="delete_field_btn"]:hover {
+    background-color: #c82333;
+}
+
+.button-container button[name="edit_field_btn"] {
+    background-color: #ffc107; /* Yellow background */
+    color: #212529; /* Dark text color */
+}
+
+.button-container button[name="edit_field_btn"]:hover {
+    background-color: #e0a800; /* Darker yellow on hover */
+}
+
+.menu {
+    text-align: left;
+    margin-top: 20px;
+    margin-left:  20px;
+}
+
+.menu a {
+    text-decoration: none;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.menu a:hover {
+    background-color: #45a049;
+}
